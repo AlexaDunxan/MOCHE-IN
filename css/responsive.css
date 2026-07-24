@@ -81,13 +81,13 @@
 
 /* === TEASER === */
 
-.video-wrapper {
-    margin: 0 auto;
-}
 
 .video-wrapper video {
     display: block;
     max-height: 80vh;
+}
+.bottom-line {
+    align-self: flex-end;
 }
 
 /* === HISTORIQUE === */
