@@ -1,0 +1,79 @@
+/* Margin and padding included in size*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+*:not(dialog) {
+  margin: 0;
+}
+
+  /*Increase line-height 
+    and render text better*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+  line-height: 1.2;
+}
+
+/* remove list styles */
+ul,ol,li {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+/* remove links decorations in navs */
+nav a {
+  text-decoration: none;
+  
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Make links not blue */
+a {
+  color: inherit;
+}
+
+/* self explanatory */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reset the button style to none*/
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+}

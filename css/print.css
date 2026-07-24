@@ -1,0 +1,48 @@
+
+.main-nav, img,
+footer,
+.btn-cta,
+.hamburger,
+.hero-content a {
+  display: none;
+}
+
+
+* {
+  background: white !important;
+  color: black !important;
+  box-shadow: none !important;
+}
+
+
+body {
+  font-size: 12pt;
+  line-height: 1.5;
+}
+
+
+.nav-logo {
+  width: 80px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+
+a::after {
+  content: " (" attr(href) ")";
+  font-size: 10pt;
+}
+
+
+a[href="#"]::after {
+  content: none;
+}
+
+.hero {
+  min-height: unset !important;
+  min-width: none !important;
+}
+
+.hero-content {
+  flex: unset !important;
+}
