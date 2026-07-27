@@ -50,11 +50,19 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   font-family: var(--font-label);
+  font-size: 1.4rem;
 }
 
 .btn-cta:hover {
   transform: translate(-3px, -3px);
   box-shadow: 4px 4px 0 var(--black);
+}
+
+.dark {
+  color: var(--black);
+  padding: 0.3rem;
+  font-family: anton;
+  font-size: 1.5rem;
 }
 
 @keyframes pulse {
